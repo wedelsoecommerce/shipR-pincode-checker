@@ -1,2 +1,2 @@
 # shipR-pincode-checker
-ShipRocker Pincode Checker
+ShipRocket Pincode Checker
