@@ -76,11 +76,17 @@ async function getValidToken() {
 
 app.get("/", (req, res) => {
   res.json({
-    success: true,
-    service: "Professional Shiprocket Pincode Checker",
     status: "running"
   });
 });
+
+app.get("/apps/pincode-check", (req, res) => {
+  res.json({
+    success: true,
+    message: "App Proxy GET route is working"
+  });
+});
+
 
 // ===============================
 // Pincode Checker Route
