@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 3000;
 
 const SHIPROCKET_EMAIL = process.env.SHIPROCKET_EMAIL;
 const SHIPROCKET_PASSWORD = process.env.SHIPROCKET_PASSWORD;
-const PICKUP_POSTCODE = process.env.PICKUP_POSTCODE || "641001";
+const PICKUP_POSTCODE = process.env.PICKUP_POSTCODE || "641658";
 const DEFAULT_WEIGHT = process.env.DEFAULT_WEIGHT || 0.5;
 
 // ===============================
